@@ -1,0 +1,25 @@
+@mixin h1 {
+font-size: 35px;
+font-family: 'Poppins-Bold';
+color: $d3-4 ;
+ }
+@mixin h2 {
+font-size: 33px;
+font-family: 'Poppins-Medium';
+color: $d2-4;
+ }
+@mixin h5 {
+font-size: 17px;
+font-family: 'Poppins-Medium';
+color: $d3-4;
+ }
+@mixin h6 {
+font-size: 15px;
+font-family: 'Poppins-Medium';
+color: $d3-4;
+ }
+@mixin p {
+font-size: 14px;
+font-family: 'Poppins-Regular';
+color: $d1-4;
+ }

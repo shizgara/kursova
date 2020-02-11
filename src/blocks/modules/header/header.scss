@@ -1,0 +1,25 @@
+/* ubralu vidstupu vsih elementiv */
+body,p,h1,h2,h3,h4,
+h5,h6,ul,ol,
+header,footer, main,
+nav,aside,article,
+section{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: $primary-1;
+    height: 100px; 
+}
+
+.menu{
+    list-style-type: none; 
+    }
+.menu li{
+    display: inline;
+}
+.name{
+    color: white;
+    font-size: 20px;
+    font-family: 'Poppins-Bold';
+}

@@ -5,14 +5,38 @@ $primary-3:#ecfa4d;
 $primary-4:#656a70;
 
 /*light - color*/
-$li-1: mix($primary-1,#fff,60%)
-$li-2: mix($primary-1,#fff,25%)
-$li-3: mix($primary-1,#fff,10%)
+$l1-1: mix($primary-1,#fff,60%);
+$l2-1: mix($primary-1,#fff,25%);
+$l3-1: mix($primary-1,#fff,10%);
 
-/*darl color primary-1*/
+$l1-2: mix($primary-2,#fff,60%);
+$l2-2: mix($primary-2,#fff,25%);
+$l3-2: mix($primary-2,#fff,10%);
 
-$d1-1:mix($primary-1,#000,80%)
-$d1-2:mix($primary-1,#000,50%)
-$d1-3:mix($primary-1,#000,30%)
+$l1-3: mix($primary-3,#fff,60%);
+$l2-3: mix($primary-3,#fff,25%);
+$l3-3: mix($primary-3,#fff,10%);
+
+$l1-4: mix($primary-4,#fff,60%);
+$l2-4: mix($primary-4,#fff,25%);
+$l3-4: mix($primary-4,#fff,10%);
+
+/*darl color */
+
+$d1-1:mix($primary-1,#000,80%);
+$d2-1:mix($primary-1,#000,50%);
+$d3-1:mix($primary-1,#000,30%);
+
+$d1-2:mix($primary-2,#000,80%);
+$d2-2:mix($primary-2,#000,50%);
+$d3-2:mix($primary-2,#000,30%);
+
+$d1-3:mix($primary-3,#000,80%);
+$d2-3:mix($primary-3,#000,50%);
+$d3-3:mix($primary-3,#000,30%);
+
+$d1-4:mix($primary-4,#000,80%);
+$d2-4:mix($primary-4,#000,50%);
+$d3-4:mix($primary-4,#000,30%);
 
 

@@ -11,15 +11,64 @@ section{
     background-color: $primary-1;
     height: 100px; 
 }
-
-.menu{
+.logo{
+    margin-right: 15px;
+}
+.d-flex span{
+    @include text(yellow,20px,'Poppins-Bold');
+}
+.d-flex p{
+    @include text(white,13px,'Poppins-Bold');
+}
+.menu1{
     list-style-type: none; 
     }
-.menu li{
+.menu1 li{
     display: inline;
-}
+  }
+  .menu1 li:hover{
+      background-color: $primary-4;
+  }
+.menu2{
+    list-style-type: none; 
+    justify-content: space-evenly
+    }
+.menu2 li{
+    display: inline;}
 .name{
+    @include text(white,20px,'Poppins-Bold')
+   }
+.menu1 a{
     color: white;
-    font-size: 20px;
     font-family: 'Poppins-Bold';
+    font-size:15px;
+    text-decoration: none;
+    margin-right: 25px;
 }
+.menu2 a{
+    color: white;
+    font-family: 'Poppins-Bold';
+    font-size:15px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.blue{
+    text-transform: uppercase;
+    background-color:  $d2-1;
+    border: none;
+    @include text(white,12px,'Poppins-Bold');
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.red{
+    text-transform: uppercase;
+    background-color:  $primary-2;
+    border: none;
+    @include text(white,12px,'Poppins-Bold');
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+i{
+    font-size: 25px;
+}
+

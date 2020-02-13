@@ -1,0 +1,46 @@
+.banner{
+    background: url(../../../img/bg.png) no-repeat;
+    background-size: cover;
+    height: 429px;
+}
+.banner h1{
+    @include text(black,47px,'Poppins-Regular');
+    text-align: left;
+    line-height: 1.2;
+}
+.banner p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    @include text($primary-4,20px,'Poppins-Medium')}
+span{
+    color: $primary-1;
+}
+hr{
+    width: 95%;
+    margin-left:2px;
+    margin: 20px 0;
+    position: relative;
+    height: 5px;
+    background: $primary-4;
+}
+hr:after{
+    content: '';
+    width: 105px;
+    height: 5px;
+    background-color: red;
+    display: block;
+    position: absolute;
+    // top:-15px;
+}
+
+.red2{
+    text-transform: uppercase;
+    background-color:  $primary-2;
+    border: none;
+    @include text(white,12px,'Poppins-Bold');
+    padding: 20px 70px;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+

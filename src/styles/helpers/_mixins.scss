@@ -23,3 +23,8 @@ font-size: 14px;
 font-family: 'Poppins-Regular';
 color: $d1-4;
  }
+ @mixin text($color,$size,$font){
+ color: $color;
+font-size: $size;
+font-family: $font;
+ }

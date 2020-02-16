@@ -1,20 +1,21 @@
 .banner{
-    background: url(../../../img/bg.png) no-repeat;
+    background: url(../../../img/bg.png) 50% no-repeat;
     background-size: cover;
-    height: 429px;
+    height: 530px;
 }
 .banner h1{
     @include text(black,47px,'Poppins-Regular');
     text-align: left;
     line-height: 1.2;
+    margin-top: 70px;
 }
 .banner p{
     font-size: 20px;
     line-height: 1.5;
     text-align: left;
     @include text($primary-4,20px,'Poppins-Medium')}
-span{
-    color: $primary-1;
+.banner span{
+    @include text($primary-1,47px,'Poppins-Regular');
 }
 hr{
     width: 95%;
@@ -43,4 +44,69 @@ hr:after{
     border-radius: 5px;
     margin-top: 60px;
 }
+.imgpos{
+    position: relative;
+}
+.im{
+    position: absolute;
+    top: 240px;
+    z-index: 1000;
+}
+.red2:hover{
+    background-color: $l1-2;
+}
+
+/*form styles*/
+.bg_menu{
+    background-color: $primary-1;
+    height: 110px;
+    margin-top: 70px;
+    }
+ .bg_menu div{
+    padding-left: 0px;
+    margin-top: -10px;
+ }
+ .bg_menu div:nth-child(5){
+     margin-top: 7px;
+ }   
+.pos{
+    position: relative;
+    
+}
+input{
+    height: 50px;
+    width: 200px;
+    margin-top: 5px;
+    text-align: center;
+}
+.pos i{
+    position: absolute;
+    top: 33px;
+    color: $l2-4;
+    right: -8px;
+}
+.fa-minus{
+    position: absolute;
+    left: 6px;
+}
+
+label{
+    @include text(white,'Poppins-Medium',13px);    
+}
+.styled {
+    border: 0;
+    padding: 0 20px;
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+    background-color: $d2-1;
+    font-family: 'Poppins-Medium' ;
+    height: 50px;
+}
+.styled:hover {
+    background-color: $l2-1;
+}
+
 

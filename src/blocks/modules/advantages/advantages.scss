@@ -1,0 +1,44 @@
+.advanteges{
+    background: url(../../../img/advanteges/bg.png) no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+#h6_a{
+    @include text(white,14px,'Poppins-Regular');
+    text-align: center;
+    margin-top: 50px;
+}
+.h2_a{
+    @include h2;
+    color: white;
+    text-align: center;
+    margin: 20px 50px;
+}
+.block{
+    background-color: white;
+    padding: 30px 40px 40px;
+    text-align: center;
+}
+.h5_a{
+    @include h5;
+    margin-top: 10px;
+
+}
+#p_a{
+    @include p;
+    color: $l1-4;
+    margin-top: 15px;
+}
+.blue2{
+    text-transform: uppercase;
+    background-color:  $d1-1;
+    border: none;
+    @include text(white,12px,'Poppins-Bold');
+    padding: 15px 70px;
+    border-radius: 5px;
+    margin-top: 50px;    
+}
+.blue2:hover{
+    background-color: $l2-1;
+}

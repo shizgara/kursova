@@ -1,0 +1,20 @@
+.type{
+    margin-top: 100px;
+    padding: 0;
+    margin-bottom: 70px;
+}
+#h6_m{
+@include h6;
+color: $d1-1;}
+h1{
+    @include h1;
+    font-style: 'Poppins';
+    line-height: 1.5;
+    margin-top: 30px;
+}
+#p{
+    @include text($d1-4,14px,'Poppins-Regular');
+    line-height: 1.5;
+    margin-top: 30px;
+}
+

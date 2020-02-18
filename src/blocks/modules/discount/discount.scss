@@ -1,8 +1,42 @@
 .discount{
     background: url(../../../img/discount/bg.png) no-repeat;
     background-size: contain;
+    position: relative;
     height: 1000px;
 }
+// .grid2{
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-auto-rows: auto;
+// }
+.posdisc{
+position: absolute;
+top: 250px;
+}
+.white{
+    background-color: white;
+    padding: 70px,80px,40px,100px;
+    text-align: center;   
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 550px;
+    width: 480px;
+    
+}
+// .grid div:nth-child(1){
+//     border-right: solid 1px $l1-4;
+// }
+// .grid div:nth-child(2){
+//     border-bottom: solid 1px $l1-4;
+// }
+// .grid div:nth-child(3){
+//     border-top: solid 1px $l1-4;
+// }
+// .grid div:nth-child(4){
+//     border-left: solid 1px $l1-4;
+// }
 .d_h6{
     @include h6;
     color: white;
@@ -17,4 +51,76 @@
 }
 .d_p{
     @include text(white,20px,'Poppins-Medium');
-    text-align: center;}
+    text-align: center;
+}
+    
+.d_h1{
+    @include h1;
+    font-family: 'Poppins';
+    color: $primary-2;
+}
+.d_p2{
+    @include p;
+    }
+ .d_h52{
+     @include text($primary-1,17px,'Poppins-SemiBold');}   
+.ballon{
+    background-color: $d1-1;
+    padding: 15px;
+    position: relative;
+    height: 550px;
+    width: 480px;
+}   
+.pad{
+    border: dashed 1px black;
+    color: $l2-4;;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.sci{
+    position: absolute;
+    top: 160px;
+}
+.star{
+    position: absolute;
+    right: 22px;
+    top: 163px;
+}
+.bal{
+    position: absolute;
+    bottom: 50px;
+    right: -30px;
+}
+.disc{
+    background-color: $d2-1;
+    border-radius: 10px;
+    border-style: dashed;
+    border-color: white;
+    text-align: center;
+}
+.d_p3{
+    @include text(white,28px,'Poppins-SemiBold');
+    text-align: center;
+    padding: 5px;
+}
+.get{
+    @include text(white,24px,'Poppins-Medium');
+    margin-top: 40px;
+    margin-right: 110px;
+}
+.off{
+    @include text(#e2f55d,62px,'Poppins');
+    line-height: 60px;
+    margin-top: 10px;
+}
+.for{
+@include text(white,14px,'Poppins-Medium');
+margin-bottom: 30px;
+}     
+.use{
+    @include text(white,18px,'OpenSans');
+    margin: 30px 0;
+    text-align: center;
+    letter-spacing: 2px;
+}

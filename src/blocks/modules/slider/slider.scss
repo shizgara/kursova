@@ -1,0 +1,13 @@
+.p1{
+    @include p;
+    text-align: center;
+}
+.s_h5{
+    @include h5;
+    color: $primary-1;
+    text-align: center;
+}
+.s_p2{
+    @include text($l1-4,13px,'Poppins-Light');
+    text-align: center;
+}

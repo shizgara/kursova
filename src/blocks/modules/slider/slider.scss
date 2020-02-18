@@ -1,3 +1,13 @@
+.s_p1{
+    @include text ($l1-1,15px,'Poppins-Medium');
+    text-align: center;
+    
+}
+.s_h3{
+    @include text(black,33px,'Poppins-Medium');
+    text-align: center;
+    margin: 20px 0 60px;
+}
 .p1{
     @include p;
     text-align: center;
@@ -6,8 +16,13 @@
     @include h5;
     color: $primary-1;
     text-align: center;
+    margin: 30px 0 20px;
 }
 .s_p2{
     @include text($l1-4,13px,'Poppins-Light');
     text-align: center;
+}
+.s_img{
+    text-align: center;
+    margin-bottom:  20px;
 }

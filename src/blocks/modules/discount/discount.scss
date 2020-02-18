@@ -2,7 +2,7 @@
     background: url(../../../img/discount/bg.png) no-repeat;
     background-size: contain;
     position: relative;
-    height: 1000px;
+    height: 900px;
 }
 // .grid2{
 //     display: grid;
@@ -12,10 +12,11 @@
 .posdisc{
 position: absolute;
 top: 250px;
+left: 470px;
 }
 .white{
     background-color: white;
-    padding: 70px,80px,40px,100px;
+    padding: 15px 20px 50px;
     text-align: center;   
 }
 .grid{
@@ -23,20 +24,24 @@ top: 250px;
     grid-template-columns: repeat(2, 1fr);
     height: 550px;
     width: 480px;
+    padding: 20px;
+    background-color: white;
     
 }
-// .grid div:nth-child(1){
-//     border-right: solid 1px $l1-4;
-// }
-// .grid div:nth-child(2){
-//     border-bottom: solid 1px $l1-4;
-// }
-// .grid div:nth-child(3){
-//     border-top: solid 1px $l1-4;
-// }
-// .grid div:nth-child(4){
-//     border-left: solid 1px $l1-4;
-// }
+.grid div:nth-child(1){
+    border-right: solid 1px $l1-4;
+}
+.grid div:nth-child(2){
+    border-bottom: solid 1px $l1-4;
+}
+.grid div:nth-child(3){
+    border-top: solid 1px $l1-4;
+    margin: -1px 0 0 0;
+}
+.grid div:nth-child(4){
+    border-left: solid 1px $l1-4;
+    margin: 0 0 0 -1px;
+}
 .d_h6{
     @include h6;
     color: white;
@@ -66,10 +71,11 @@ top: 250px;
      @include text($primary-1,17px,'Poppins-SemiBold');}   
 .ballon{
     background-color: $d1-1;
-    padding: 15px;
     position: relative;
     height: 550px;
     width: 480px;
+    display: flex;
+    align-items: center;
 }   
 .pad{
     border: dashed 1px black;

@@ -9,7 +9,9 @@ section{
 }
 .header{
     background-color: $primary-1;
-    height: 100px; 
+    // height: 100px; 
+    background-size: cover;
+    padding: 10px 0 10px;
 }
 .logo{
     margin-right: 15px;
@@ -41,6 +43,7 @@ section{
     display: inline;}
 .name{
     @include text(white,29px,'Poppins-Light');
+    margin: 0;
    }
    #net{
        font-size: 13px;

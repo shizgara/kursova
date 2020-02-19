@@ -67,7 +67,7 @@ hr:after{
     margin-top: -10px;
  }
  .bg_menu div:nth-child(5){
-     margin-top: 7px;
+     margin-top: 20px;
  }   
 .pos{
     position: relative;
@@ -81,7 +81,7 @@ input{
 }
 .pos i{
     position: absolute;
-    top: 33px;
+    top: 49px;
     color: $l2-4;
     right: -8px;
 }
@@ -108,5 +108,7 @@ label{
 .styled:hover {
     background-color: $l2-1;
 }
-
+@media (max-width: 1200px) {
+    
+}
 

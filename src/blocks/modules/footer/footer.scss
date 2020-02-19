@@ -1,6 +1,9 @@
 .margin{
     margin-top: 80px;
 }
+.margf{
+    margin-bottom: 30px;
+}
 .menu_f{
     list-style-type: none;
     @include text(white,16px,'Poppins-Medium') ;
@@ -16,7 +19,37 @@
     }
     .menu_f li:nth-child(1){
         margin-top: 30px;
+       
     }
     .bord_f{
         border-top: 1px solid $l2-1;
-    }    
+        border-bottom: 1px solid $l2-1;
+    }
+    .row3{
+        margin: 30px 0;
+    }
+ .r3_p{
+     @include text(white,13px,'OpenSans')
+ }   
+ .if{
+     color: white;
+     border: 1px white solid;
+     border-radius: 50%;
+     padding: 10px;
+     margin-right: 5px;
+ }   
+.if1{
+    padding: 10px 20px;
+    color: white;
+     border: 1px white solid;
+     border-radius: 50%;
+}
+.phone{
+    margin-left: 20px;
+}
+.r3_p2{
+@include text(white,13px,'Poppins-Medium')
+}
+.r3_p3{
+@include text(white,16px,'Poppins')
+}

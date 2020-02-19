@@ -12,7 +12,7 @@
 .posdisc{
 position: absolute;
 top: 250px;
-left: 470px;
+left: 670px;
 }
 .white{
     background-color: white;
@@ -86,17 +86,18 @@ left: 470px;
 }
 .sci{
     position: absolute;
-    top: 160px;
+    top: 120px;
 }
 .star{
     position: absolute;
     right: 22px;
-    top: 163px;
+    top: 120px;
 }
 .bal{
     position: absolute;
-    bottom: 50px;
-    right: -30px;
+    bottom: 25px;
+    right: -40px;
+    height: 35%;
 }
 .disc{
     background-color: $d2-1;

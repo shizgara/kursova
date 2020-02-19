@@ -57,58 +57,33 @@ hr:after{
 }
 
 /*form styles*/
-.bg_menu{
-    background-color: $primary-1;
-    height: 110px;
+.formbg{
     margin-top: 70px;
-    }
- .bg_menu div{
-    padding-left: 0px;
-    margin-top: -10px;
- }
- .bg_menu div:nth-child(5){
-     margin-top: 20px;
- }   
-.pos{
-    position: relative;
-    
+    background-color: $primary-1;
+    background-size: cover;
+    // text-align: center;
+    padding: 10px 0;
 }
-input{
-    height: 50px;
-    width: 200px;
-    margin-top: 5px;
-    text-align: center;
-}
-.pos i{
-    position: absolute;
-    top: 49px;
-    color: $l2-4;
-    right: -8px;
-}
-.fa-minus{
-    position: absolute;
-    left: 6px;
-}
-
 label{
-    @include text(white,'Poppins-Medium',13px);    
+    @include text(white,13px,'Poppins-Medium');
+    text-align: left
 }
-.styled {
-    border: 0;
-    padding: 0 20px;
-    font-size: 13px;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 5px;
+#opt{
+    @include text($l2-4,13px,'Poppins-Regular');
+}
+.btn{
+    margin-top: 30px;
+    color:white;
     background-color: $d2-1;
     font-family: 'Poppins-Medium' ;
-    height: 50px;
+    padding: 0 20px;
+    height: 40px;
+    width: 100%;
 }
-.styled:hover {
-    background-color: $l2-1;
-}
-@media (max-width: 1200px) {
-    
+@media (max-width: 991px) {
+    .gridcol{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 

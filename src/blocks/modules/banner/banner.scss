@@ -86,4 +86,24 @@ label{
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
+@media(max-width: 1200px){
+    .formbg{
+       margin-top: 65px;
+    }
+    .im{
+        top:234px;
+    }
+    .red2{
+        margin-top: 25px;
+    }
+    .banner h1{
+        font-size: 37px;     
+      }
+      .banner span{
+        font-size: 37px;   
+      }
+      .banner p{
+        font-size: 18px;   
+      }
+}
+   

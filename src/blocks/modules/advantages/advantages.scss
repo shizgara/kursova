@@ -42,3 +42,33 @@
 .blue2:hover{
     background-color: $l2-1;
 }
+@media (max-width: 991px) {
+    .flexa{
+        flex-wrap: wrap
+    }
+    .h2_a{
+        font-size: 25px;
+    }
+    .block{
+        height: 85%;
+        padding: 10px 15px 5px;
+    }
+    .block img{
+        height: 40%;
+    }
+    .h5_a{
+        font-size: 13px;
+    }
+    #p_a{
+        font-size: 10px;
+    }
+    #h6_a{
+        margin-top: 10px;
+    }
+    .h2_a{
+        margin: 5px 0;
+    }
+    .blue2{
+        margin-top: 10px;
+    }
+}

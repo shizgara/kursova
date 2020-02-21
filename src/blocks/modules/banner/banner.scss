@@ -85,13 +85,36 @@ label{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .banner h1{
+        margin-top: 10px;
+        font-size: 27px;  
+    }
+     .banner span{
+        font-size: 27px;   
+      }
+      .im{
+        top:6px;
+        height: 100%;
+    }
+    .red2{
+        @include text(white,12px,'Poppins-Bold');
+        padding: 10px 35px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    .formbg{
+        height: 75%;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
-@media(max-width: 1200px){
+@media(max-width: 1999px){
     .formbg{
        margin-top: 65px;
     }
     .im{
-        top:234px;
+        top:208px;
     }
     .red2{
         margin-top: 25px;
@@ -106,4 +129,20 @@ label{
         font-size: 18px;   
       }
 }
-   
+@media(max-width: 768px){
+    .banner h1{
+        font-size: 20px;     
+      }
+      .banner span{
+        font-size: 20px;   
+      }
+}   
+@media(max-width: 502px){
+    .red2{
+        @include text(white,12px,'Poppins-Bold');
+        padding: 5px 25px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+}

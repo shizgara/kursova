@@ -17,3 +17,18 @@
     padding: 30px 20px 40px;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .flexw{
+        flex-wrap: wrap;
+    }
+    .block2{
+        padding: 15px 10px 20px;
+        justify-content: center;
+    }
+    .w_p{
+        font-size: 12px;
+    }
+    .w_h2{
+        font-size: 20px;
+    }
+}

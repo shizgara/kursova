@@ -53,3 +53,13 @@
 .r3_p3{
 @include text(white,16px,'Poppins')
 }
+@media (max-width: 768px){
+   .margf{
+       justify-content: center;
+   } 
+   .gridf{ 
+  display: flex;
+justify-content: center;}
+
+
+}

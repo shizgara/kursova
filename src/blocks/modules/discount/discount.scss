@@ -2,6 +2,7 @@
     background: url(../../../img/discount/bg.png) no-repeat;
     background-size: contain;
     position: relative;
+    width: 100%;
     height: 900px;
 }
 // .grid2{
@@ -12,7 +13,7 @@
 .posdisc{
 position: absolute;
 top: 250px;
-left: 670px;
+left: 400px;
 }
 .white{
     background-color: white;
@@ -130,4 +131,66 @@ margin-bottom: 30px;
     margin: 30px 0;
     text-align: center;
     letter-spacing: 2px;
+}
+
+@media (max-width:1240px){
+    .posdisc{
+        left: 200px;}
+}
+@media (max-width:1240px){
+  .pad{
+      padding: 10px;
+  }  
+}
+@media (max-width:991px){
+    .d_p3{
+        font-size: 22px;
+    }
+    .sci{
+        top: 113px;
+    }
+    .star{
+        top: 115px;
+    }
+}
+@media (max-width:847px){
+    .sci{
+        top: 130px;
+    }
+    .star{
+        top:125px;
+    }
+}
+@media (max-width: 768px){
+    .discount{
+        background-image: none;
+    }
+    .posdisc{
+        top: 50px;
+        left: 0px; 
+        padding: 0 20px;
+    }
+    .sci{
+        top: 113px;
+    }
+    .star{
+        top:115px;
+    }
+}
+@media (max-width: 576px){
+    .posdisc{
+        display: grid;
+        margin: 0 auto;
+        left: 30px;
+        margin-bottom: 150px;
+    }
+    .pad{
+        padding: 30px;}
+        .sci{
+            top: 125px;
+        }
+        .star{
+            top:125px;
+            right: 40px;
+        }
 }
